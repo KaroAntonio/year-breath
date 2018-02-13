@@ -1,0 +1,21 @@
+body,html { margin: 0px; border: 0px; }
+
+#pop {
+	position: absolute;
+	text-align: center;
+	font-size: 80px;		
+	width: 100%;
+	bottom:50px;
+	color: white;
+}
+
+#loading {
+	position: absolute;
+	right: 50vw;
+	top: 20vh;
+	width: 40px;
+	height: 40px;
+	z-index: 1000000; /* the highest */
+}
+
+
